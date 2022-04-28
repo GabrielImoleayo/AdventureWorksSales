@@ -45,7 +45,6 @@ namespace AdventureWorksSales.Web.Controllers
             return View(pc);
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(ProductCategoryView productCategory)
